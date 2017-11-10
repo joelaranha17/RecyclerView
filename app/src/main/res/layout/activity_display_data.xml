@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:id="@+id/MyLLitem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textviewHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="HEADING"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/textviewDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Description"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textviewDOB"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Date of Birth"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textviewCountry"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Country"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textviewSpouse"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Spouse"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
